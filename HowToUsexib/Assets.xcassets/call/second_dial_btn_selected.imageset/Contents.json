@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "ipad"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "second_dial_btn_selected.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "second_dial_btn_selected@2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

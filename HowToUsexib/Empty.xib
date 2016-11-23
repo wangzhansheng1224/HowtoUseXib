@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="AYe-63-zad">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+        <view contentMode="scaleToFill" id="0xe-ih-TYL">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+        <view contentMode="scaleToFill" id="ACR-qf-LYH" customClass="CustomView">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tp_call_background" translatesAutoresizingMaskIntoConstraints="NO" id="Lxr-KT-jS2">
+                    <rect key="frame" x="0.0" y="0.0" width="395" height="400"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpj-jO-bSc">
+                    <rect key="frame" x="20" y="260" width="355" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="fw4-51-WC5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="视频接听" backgroundImage="tp_call_btn_green_normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9j9-6O-4Xr">
+                    <rect key="frame" x="20" y="190" width="355" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="3G6-SR-46q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="语音接听" backgroundImage="tp_call_btn_green_normal"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wf-GD-4A0">
+                    <rect key="frame" x="20" y="330" width="355" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="g86-55-GWn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="拒绝接听" backgroundImage="tp_call_btn_red_normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tp_call_head_callee" translatesAutoresizingMaskIntoConstraints="NO" id="6DQ-Ig-4qA">
+                    <rect key="frame" x="100" y="50" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="82B-gT-eOF"/>
+                        <constraint firstAttribute="width" constant="120" id="Cry-mP-DEz"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="7Wf-GD-4A0" firstAttribute="leading" secondItem="ACR-qf-LYH" secondAttribute="leading" constant="20" id="6Zm-ZK-z3v"/>
+                <constraint firstAttribute="bottom" secondItem="Lxr-KT-jS2" secondAttribute="bottom" id="86O-0J-h3q"/>
+                <constraint firstAttribute="trailing" secondItem="9j9-6O-4Xr" secondAttribute="trailing" constant="20" id="99G-gR-64i"/>
+                <constraint firstAttribute="trailing" secondItem="7Wf-GD-4A0" secondAttribute="trailing" constant="20" id="AH9-bb-Hfd"/>
+                <constraint firstItem="6DQ-Ig-4qA" firstAttribute="leading" secondItem="ACR-qf-LYH" secondAttribute="leading" constant="100" id="Bm9-r2-mf4"/>
+                <constraint firstAttribute="trailing" secondItem="Lxr-KT-jS2" secondAttribute="trailing" id="ElJ-fw-fd8"/>
+                <constraint firstItem="tpj-jO-bSc" firstAttribute="top" secondItem="9j9-6O-4Xr" secondAttribute="bottom" constant="20" id="NAD-rY-uuB"/>
+                <constraint firstAttribute="trailing" secondItem="tpj-jO-bSc" secondAttribute="trailing" constant="20" id="QMP-PX-7XG"/>
+                <constraint firstItem="9j9-6O-4Xr" firstAttribute="leading" secondItem="ACR-qf-LYH" secondAttribute="leading" constant="20" id="RFA-Us-DIQ"/>
+                <constraint firstItem="6DQ-Ig-4qA" firstAttribute="top" secondItem="ACR-qf-LYH" secondAttribute="top" constant="50" id="UwA-Ef-HGa"/>
+                <constraint firstAttribute="bottom" secondItem="7Wf-GD-4A0" secondAttribute="bottom" constant="20" id="dXg-Ig-grL"/>
+                <constraint firstItem="Lxr-KT-jS2" firstAttribute="top" secondItem="ACR-qf-LYH" secondAttribute="top" id="nxy-IE-4Hc"/>
+                <constraint firstItem="tpj-jO-bSc" firstAttribute="leading" secondItem="ACR-qf-LYH" secondAttribute="leading" constant="20" id="oAa-1p-8Ff"/>
+                <constraint firstItem="Lxr-KT-jS2" firstAttribute="leading" secondItem="ACR-qf-LYH" secondAttribute="leading" id="oaO-41-rDV"/>
+                <constraint firstItem="7Wf-GD-4A0" firstAttribute="top" secondItem="tpj-jO-bSc" secondAttribute="bottom" constant="20" id="xAQ-MG-3mA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="BgImage" destination="Lxr-KT-jS2" id="ymY-EG-KvX"/>
+                <outlet property="HeadImage" destination="6DQ-Ig-4qA" id="cTL-Ss-vkd"/>
+                <outlet property="RangLeft" destination="Bm9-r2-mf4" id="Bw8-rb-rGD"/>
+                <outlet property="RefuseBtn" destination="7Wf-GD-4A0" id="Tvd-4s-5aa"/>
+                <outlet property="VideoBtn" destination="tpj-jO-bSc" id="I0I-XM-Luf"/>
+                <outlet property="VoiceBtn" destination="9j9-6O-4Xr" id="y8V-Ir-lQ6"/>
+            </connections>
+            <point key="canvasLocation" x="149.5" y="-277"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tp_call_background" width="320" height="568"/>
+        <image name="tp_call_btn_green_normal" width="293" height="45"/>
+        <image name="tp_call_btn_red_normal" width="293" height="45"/>
+        <image name="tp_call_head_callee" width="80" height="80"/>
+    </resources>
+</document>

@@ -15,6 +15,8 @@
 		D25B1AB31DD9C14000AC9B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25B1AB11DD9C14000AC9B03 /* LaunchScreen.storyboard */; };
 		D25B1ABE1DD9C14000AC9B03 /* HowToUsexibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B1ABD1DD9C14000AC9B03 /* HowToUsexibTests.m */; };
 		D25B1AC91DD9C14000AC9B03 /* HowToUsexibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B1AC81DD9C14000AC9B03 /* HowToUsexibUITests.m */; };
+		D25B1AD81DD9C44B00AC9B03 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25B1AD71DD9C44B00AC9B03 /* Empty.xib */; };
+		D25B1ADC1DD9C4BE00AC9B03 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25B1ADB1DD9C4BE00AC9B03 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D25B1AC41DD9C14000AC9B03 /* HowToUsexibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToUsexibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25B1AC81DD9C14000AC9B03 /* HowToUsexibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowToUsexibUITests.m; sourceTree = "<group>"; };
 		D25B1ACA1DD9C14000AC9B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25B1AD71DD9C44B00AC9B03 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		D25B1ADA1DD9C4BE00AC9B03 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		D25B1ADB1DD9C4BE00AC9B03 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				D25B1AA71DD9C14000AC9B03 /* AppDelegate.m */,
 				D25B1AA91DD9C14000AC9B03 /* ViewController.h */,
 				D25B1AAA1DD9C14000AC9B03 /* ViewController.m */,
+				D25B1ADA1DD9C4BE00AC9B03 /* CustomView.h */,
+				D25B1ADB1DD9C4BE00AC9B03 /* CustomView.m */,
+				D25B1AD71DD9C44B00AC9B03 /* Empty.xib */,
 				D25B1AAC1DD9C14000AC9B03 /* Main.storyboard */,
 				D25B1AAF1DD9C14000AC9B03 /* Assets.xcassets */,
 				D25B1AB11DD9C14000AC9B03 /* LaunchScreen.storyboard */,
@@ -250,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25B1AB31DD9C14000AC9B03 /* LaunchScreen.storyboard in Resources */,
+				D25B1AD81DD9C44B00AC9B03 /* Empty.xib in Resources */,
 				D25B1AB01DD9C14000AC9B03 /* Assets.xcassets in Resources */,
 				D25B1AAE1DD9C14000AC9B03 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D25B1AAB1DD9C14000AC9B03 /* ViewController.m in Sources */,
+				D25B1ADC1DD9C4BE00AC9B03 /* CustomView.m in Sources */,
 				D25B1AA81DD9C14000AC9B03 /* AppDelegate.m in Sources */,
 				D25B1AA51DD9C14000AC9B03 /* main.m in Sources */,
 			);
@@ -516,6 +526,7 @@
 				D25B1ACF1DD9C14000AC9B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D25B1AD01DD9C14000AC9B03 /* Build configuration list for PBXNativeTarget "HowToUsexibTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +535,7 @@
 				D25B1AD21DD9C14000AC9B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D25B1AD31DD9C14000AC9B03 /* Build configuration list for PBXNativeTarget "HowToUsexibUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +544,7 @@
 				D25B1AD51DD9C14000AC9B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
